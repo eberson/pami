@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Curso Programação Mobile I</string>
+
+    <string name="msg_inicio">Sejam todos bem vindos ao nosso laboratório de Android</string>
+    <string name="msg_clique">Clique no botão abaixo para que selecionemos um número pra você</string>
+    <string name="msg_resposta">O número selecionado foi: %1$d</string>
+
+    <string name="btn_clique_aqui">Clique Aqui!</string>
+    <string name="btn_sortear_numero">Sortear Número</string>
+</resources>
