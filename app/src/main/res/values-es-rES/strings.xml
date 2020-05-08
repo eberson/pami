@@ -1,0 +1,14 @@
+<resources>
+    <string name="msg_seja_bem_vindo">Sea Bienvenido!</string>
+    <string name="msg_campo_obrigatorio">Este campo es obligatorio</string>
+    <string name="msg_seja_bem_vindo_usuario">Bienvenido, %1$s!</string>
+    <string name="msg_resultado_calculo">%1$d + %2$d = %3$d</string>
+
+    <string name="btn_clique_aqui">Haga clic aquí!</string>
+    <string name="btn_some">Sumar</string>
+    <string name="btn_calc">Calculadora</string>
+
+    <string name="hint_informe_nome">Ingresa tu nombre</string>
+    <string name="hint_informe_um_numero">Ingrese un número</string>
+    <string name="hint_informe_outro_numero">Ingrese otro número</string>
+</resources>
