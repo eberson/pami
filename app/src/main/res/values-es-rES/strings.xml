@@ -8,6 +8,9 @@
     <string name="btn_some">Sumar</string>
     <string name="btn_calc">Calculadora</string>
 
+    <string name="text_1">Primer Texto</string>
+    <string name="text_2">Segundo Texto</string>
+
     <string name="hint_informe_nome">Ingresa tu nombre</string>
     <string name="hint_informe_um_numero">Ingrese un número</string>
     <string name="hint_informe_outro_numero">Ingrese otro número</string>

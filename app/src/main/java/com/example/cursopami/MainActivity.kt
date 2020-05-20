@@ -35,6 +35,16 @@ class MainActivity : AppCompatActivity() {
         ).show()
     }
 
+    fun showLinearLayout(v:View){
+        var intent = Intent(MainActivity@this, LinearActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun showRelativeLayout(v:View){
+        var intent = Intent(MainActivity@this, RelativeLayout::class.java)
+        startActivity(intent)
+    }
+
     fun openCalculator(v:View){
         //a intent possui a origem e o destino da intencao
         // a origem, this, é a própria atividade onde o código sera executado

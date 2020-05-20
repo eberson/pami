@@ -9,6 +9,11 @@
     <string name="btn_clique_aqui">Clique aqui!</string>
     <string name="btn_some">Some</string>
     <string name="btn_calc">Calculadora</string>
+    <string name="btn_linear" translatable="false">LinearLayout</string>
+    <string name="btn_relative" translatable="false">RelativeLayout</string>
+
+    <string name="text_1">Primeiro Texto</string>
+    <string name="text_2">Segundo Texto</string>
 
     <string name="hint_informe_nome">Informe seu nome</string>
     <string name="hint_informe_um_numero">Informe um número</string>
