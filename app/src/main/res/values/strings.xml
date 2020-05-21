@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Meu Curso de Android</string>
+
+    <string name="btn_primeiro_teste">Meu primeiro teste</string>
+</resources>
