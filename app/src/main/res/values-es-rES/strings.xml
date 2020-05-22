@@ -14,4 +14,12 @@
     <string name="hint_informe_nome">Ingresa tu nombre</string>
     <string name="hint_informe_um_numero">Ingrese un número</string>
     <string name="hint_informe_outro_numero">Ingrese otro número</string>
+
+    <string name="hint_expense_source">Fuente de entrada</string>
+    <string name="hint_expense_value">Valor</string>
+    <string name="hint_expense_description">Descripción</string>
+    <string name="hint_expense_kind">Tipo</string>
+    <string name="msg_expense_saved">Gastos guardados correctamente</string>
+    <string name="btn_save">Salvar</string>
+    <string name="msg_required_field">Campo obligatorio</string>
 </resources>

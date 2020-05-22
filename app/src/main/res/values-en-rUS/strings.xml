@@ -3,10 +3,13 @@
     <string name="msg_campo_obrigatorio">This field is required</string>
     <string name="msg_seja_bem_vindo_usuario">Welcome, %1$s!</string>
     <string name="msg_resultado_calculo">%1$d + %2$d = %3$d</string>
+    <string name="msg_expense_saved">Expense successfully saved</string>
+    <string name="msg_required_field">Required field</string>
 
     <string name="btn_clique_aqui">Click here!</string>
     <string name="btn_some">Sum</string>
     <string name="btn_calc">Calculator</string>
+    <string name="btn_save">Save</string>
 
     <string name="text_1">First Text</string>
     <string name="text_2">Second Text</string>
@@ -14,4 +17,9 @@
     <string name="hint_informe_nome">Give your name</string>
     <string name="hint_informe_um_numero">Give a number</string>
     <string name="hint_informe_outro_numero">Give another number</string>
+
+    <string name="hint_expense_source">Input source</string>
+    <string name="hint_expense_value">Value</string>
+    <string name="hint_expense_description">Description</string>
+    <string name="hint_expense_kind">Kind</string>
 </resources>
