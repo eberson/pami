@@ -2,6 +2,11 @@
     <string name="app_name">Meu Curso de Android</string>
 
     <string name="btn_primeiro_teste">Meu primeiro teste</string>
+    <string name="btn_input_demo">Testes com input</string>
+    <string name="btn_greeting">Cumprimente!</string>
 
     <string name="msg_bem_vindo">Sejam todos bem vindos</string>
+    <string name="msg_greeting">Olá, %1$s! Tudo bem com você?!</string>
+
+    <string name="hint_name">Informe seu nome</string>
 </resources>

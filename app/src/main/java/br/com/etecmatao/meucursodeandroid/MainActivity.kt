@@ -1,5 +1,6 @@
 package br.com.etecmatao.meucursodeandroid
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -15,5 +16,10 @@ class MainActivity : AppCompatActivity() {
     fun showMessage(v: View){
         //Toast é o componente que emite mensagens "simples" ao usuario
         Toast.makeText(this, getString(R.string.msg_bem_vindo), Toast.LENGTH_SHORT).show()
+    }
+
+    fun openInputDemo(v: View){
+        val intent = Intent(this, InputDemoActivity::class.java)
+        startActivity(intent)
     }
 }
