@@ -4,9 +4,18 @@
     <string name="btn_primeiro_teste">Meu primeiro teste</string>
     <string name="btn_input_demo">Testes com input</string>
     <string name="btn_greeting">Cumprimente!</string>
+    <string name="btn_expenses">Gestão de Despesas</string>
+    <string name="btn_save">Salvar</string>
 
     <string name="msg_bem_vindo">Sejam todos bem vindos</string>
     <string name="msg_greeting">Olá, %1$s! Tudo bem com você?!</string>
+    <string name="msg_field_required">O campo é obrigatório</string>
+    <string name="msg_save_success">A despesa %1$s foi salva com sucesso!</string>
+    <string name="msg_expense_already_exists">Já existe uma despesa igual a essa</string>
+    <string name="msg_save_failed">Não foi possível salvar a despesa. Tente novamente mais tarde</string>
 
     <string name="hint_name">Informe seu nome</string>
+    <string name="hint_expense_description">Descrição</string>
+    <string name="hint_expense_date">Data</string>
+    <string name="hint_expense_value">Valor</string>
 </resources>

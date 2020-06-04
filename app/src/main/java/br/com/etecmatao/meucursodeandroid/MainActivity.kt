@@ -18,6 +18,11 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, getString(R.string.msg_bem_vindo), Toast.LENGTH_SHORT).show()
     }
 
+    fun openExpenses(v :View){
+        val intent = Intent(this, ExpensesActivity::class.java)
+        startActivity(intent)
+    }
+
     fun openInputDemo(v: View){
         val intent = Intent(this, InputDemoActivity::class.java)
         startActivity(intent)
