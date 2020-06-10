@@ -29,7 +29,7 @@ class NewExpenseActivity : AppCompatActivity() {
         val description = txtDescription.text.toString()
 
         val dateContent = txtDate.text.toString()
-        val date = formatter.parse(dateContent)
+        val date = formatter.parse(dateContent)!!
 
         val valueContent = txtValue.text.toString()
         val value = BigDecimal(valueContent)
