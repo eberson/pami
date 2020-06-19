@@ -45,6 +45,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun showGoogleMaps(v:View){
+        val intent = Intent(this, MapsActivity::class.java)
+        startActivity(intent)
+    }
+
     fun openCalculator(v:View){
         //a intent possui a origem e o destino da intencao
         // a origem, this, é a própria atividade onde o código sera executado

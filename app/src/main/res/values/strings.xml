@@ -26,4 +26,6 @@
     <string name="msg_expense_saved">Despesa salva com sucesso</string>
     <string name="btn_save">Salvar</string>
     <string name="msg_required_field">Campo obrigatório</string>
+    <string name="title_activity_maps" translatable="false">Trabalhando com Mapas</string>
+    <string name="btn_maps" translatable="false">Google Maps</string>
 </resources>
