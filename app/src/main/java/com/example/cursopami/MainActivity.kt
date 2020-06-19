@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         //inicialmente consideramos que o campo não tem erros
         txtUsuario.error = null
 
-        var nome = txtUsuario.text.toString()
+        val nome = txtUsuario.text.toString()
 
         //TextUtils.isEmpty checa se o parametro está vazio
         //guard block
@@ -36,12 +36,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun showLinearLayout(v:View){
-        var intent = Intent(MainActivity@this, LinearActivity::class.java)
+        val intent = Intent(MainActivity@this, LinearActivity::class.java)
         startActivity(intent)
     }
 
     fun showRelativeLayout(v:View){
-        var intent = Intent(MainActivity@this, RelativeLayout::class.java)
+        val intent = Intent(MainActivity@this, RelativeLayout::class.java)
         startActivity(intent)
     }
 

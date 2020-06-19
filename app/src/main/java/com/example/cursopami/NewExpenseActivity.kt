@@ -1,10 +1,13 @@
 package com.example.cursopami
 
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
+import com.example.cursopami.model.Expense
+import com.example.cursopami.repository.ExpenseRepository
 import com.google.android.material.textfield.TextInputEditText
 import kotlinx.android.synthetic.main.activity_new_expense.*
 
@@ -27,20 +30,27 @@ class NewExpenseActivity : AppCompatActivity() {
         val value = txtValue.text.toString()
         val kind = txtKind.text.toString()
 
+        ExpenseRepository.instance.add(Expense(
+            description = description,
+            inputSource = source,
+            kind = kind,
+            value = value.toDouble()
+        ))
+
         var msg = getString(R.string.msg_expense_saved)
         msg += "\ndescription=${description}\nsource=${source}\nvalue=${value}\nkind=${kind}"
 
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+
+        setResult(Activity.RESULT_OK)
+        finish()
     }
 
-    fun valid(v: TextInputEditText): Boolean {
-        v.error = null
+    private fun valid(input: TextInputEditText): Boolean {
+        val result = !TextUtils.isEmpty(input.text.toString())
 
-        if (TextUtils.isEmpty(v.text.toString())){
-            v.error = getString(R.string.msg_required_field)
-            return false
-        }
+        input.error = if (result) null else getString(R.string.msg_required_field)
 
-        return true
+        return result
     }
 }
