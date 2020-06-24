@@ -22,4 +22,8 @@
     <string name="hint_expense_value">Value</string>
     <string name="hint_expense_description">Description</string>
     <string name="hint_expense_kind">Kind</string>
+    <string name="hin_covid_prevent">Care to prevent COVID-19</string>
+    <string name="btn_lottie">Lottie animations</string>
+    <string name="btn_wash_your_hands">Wash your hands</string>
+    <string name="btn_wear_mask">Wear mask</string>
 </resources>

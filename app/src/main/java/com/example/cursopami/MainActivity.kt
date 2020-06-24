@@ -57,4 +57,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, CalculatorActivity::class.java)
         startActivity(intent)
     }
+
+    fun showLottieAnimations(v:View){
+        val intent = Intent(this, LottieActivity::class.java)
+        startActivity(intent)
+    }
 }

@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".LottieActivity"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -19,11 +20,9 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps">
-        </activity>
+            android:label="@string/title_activity_maps"></activity>
         <activity android:name=".NewExpenseActivity" />
-        <activity android:name=".ExpensesActivity">
-        </activity>
+        <activity android:name=".ExpensesActivity"></activity>
         <activity android:name=".RelativeLayout" />
         <activity android:name=".LinearActivity" />
         <activity android:name=".CalculatorActivity" />

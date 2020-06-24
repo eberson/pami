@@ -22,4 +22,8 @@
     <string name="msg_expense_saved">Gastos guardados correctamente</string>
     <string name="btn_save">Salvar</string>
     <string name="msg_required_field">Campo obligatorio</string>
+    <string name="hin_covid_prevent">Cuidado para prevenir COVID-19</string>
+    <string name="btn_lottie">Animaciones con Lottie</string>
+    <string name="btn_wash_your_hands">Lávese las manos</string>
+    <string name="btn_wear_mask">Usa máscara</string>
 </resources>

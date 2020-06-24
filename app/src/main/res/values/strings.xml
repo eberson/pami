@@ -28,4 +28,8 @@
     <string name="msg_required_field">Campo obrigatório</string>
     <string name="title_activity_maps" translatable="false">Trabalhando com Mapas</string>
     <string name="btn_maps" translatable="false">Google Maps</string>
+    <string name="hin_covid_prevent">Cuidados para prevenir COVID-19</string>
+    <string name="btn_lottie">Animações com Lottie</string>
+    <string name="btn_wash_your_hands">Lave suas mãos</string>
+    <string name="btn_wear_mask">Use máscara</string>
 </resources>
