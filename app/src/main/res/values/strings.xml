@@ -10,6 +10,8 @@
     <string name="btn_lottie">Animações com Lottie</string>
     <string name="btn_wash_your_hand">Lave suas mãos</string>
     <string name="btn_wear_mask">Use máscara</string>
+    <string name="btn_notification">Notificações</string>
+    <string name="btn_notify">Notifique-me</string>
 
     <string name="msg_bem_vindo">Sejam todos bem vindos</string>
     <string name="msg_greeting">Olá, %1$s! Tudo bem com você?!</string>
@@ -17,11 +19,17 @@
     <string name="msg_save_success">A despesa %1$s foi salva com sucesso!</string>
     <string name="msg_expense_already_exists">Já existe uma despesa igual a essa</string>
     <string name="msg_save_failed">Não foi possível salvar a despesa. Tente novamente mais tarde</string>
+    <string name="msg_notification_description">Canal para receber notificações do app</string>
+    <string name="msg_notification_demo">Você foi notificado porque alguém assim o quiz</string>
+
+    <string name="title_activity_maps">Trabalhando com Mapas</string>
+    <string name="title_notification_item">Notificação de Demonstração</string>
 
     <string name="hint_name">Informe seu nome</string>
     <string name="hint_expense_description">Descrição</string>
     <string name="hint_expense_date">Data</string>
     <string name="hint_expense_value">Valor</string>
-    <string name="title_activity_maps">Trabalhando com Mapas</string>
     <string name="hint_covid_prevent">Cuidados para não pegar COVID-19</string>
+
+    <string name="notification_id">br.com.etecmatao.meucursoandroid.notification.demo</string>
 </resources>

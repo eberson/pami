@@ -37,4 +37,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, LottieActivity::class.java)
         startActivity(intent)
     }
+
+    fun openNotifications(v:View){
+        val intent = Intent(this, NotificationActivity::class.java)
+        startActivity(intent)
+    }
 }
