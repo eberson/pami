@@ -32,4 +32,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, MapsActivity::class.java)
         startActivity(intent)
     }
+
+    fun openLottie(v:View){
+        val intent = Intent(this, LottieActivity::class.java)
+        startActivity(intent)
+    }
 }

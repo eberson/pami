@@ -7,6 +7,9 @@
     <string name="btn_expenses">Gestão de Despesas</string>
     <string name="btn_maps">Google Maps</string>
     <string name="btn_save">Salvar</string>
+    <string name="btn_lottie">Animações com Lottie</string>
+    <string name="btn_wash_your_hand">Lave suas mãos</string>
+    <string name="btn_wear_mask">Use máscara</string>
 
     <string name="msg_bem_vindo">Sejam todos bem vindos</string>
     <string name="msg_greeting">Olá, %1$s! Tudo bem com você?!</string>
@@ -20,4 +23,5 @@
     <string name="hint_expense_date">Data</string>
     <string name="hint_expense_value">Valor</string>
     <string name="title_activity_maps">Trabalhando com Mapas</string>
+    <string name="hint_covid_prevent">Cuidados para não pegar COVID-19</string>
 </resources>
