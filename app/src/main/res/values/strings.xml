@@ -5,6 +5,7 @@
     <string name="btn_input_demo">Testes com input</string>
     <string name="btn_greeting">Cumprimente!</string>
     <string name="btn_expenses">Gestão de Despesas</string>
+    <string name="btn_maps">Google Maps</string>
     <string name="btn_save">Salvar</string>
 
     <string name="msg_bem_vindo">Sejam todos bem vindos</string>
@@ -18,4 +19,5 @@
     <string name="hint_expense_description">Descrição</string>
     <string name="hint_expense_date">Data</string>
     <string name="hint_expense_value">Valor</string>
+    <string name="title_activity_maps">Trabalhando com Mapas</string>
 </resources>
